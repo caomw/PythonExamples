@@ -4,3 +4,4 @@ This repository contains my first experiences with the Python language. I am a n
 The majority of the examples are largely inspired by the Kindle book (in Italian):
 
 "Guida alla Programmazione con Python - Corso completo per Imparare a Programmare in poco tempo" by Giuseppe Ciaburro
+Publisher: 2015, CreateSpace Independent Publishing Platform
