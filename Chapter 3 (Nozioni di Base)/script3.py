@@ -1,9 +1,9 @@
 #################################################################################
 # David Canino, July 2016
 #
-# Examples about the conversion of some expressions in the Python Language
+# Examples about the expressions and the basic operators in the Python Language
 #
-# script3.py
+# script3.py script
 #################################################################################
 a=1
 b=2
@@ -18,9 +18,6 @@ print("\tVariable 'c':",c)
 print("\tType of the variable 'c':",type(c),"\n")
 print("\tVariable 'd':",d)
 print("\tType of the variable 'd':",type(d),"\n")
-d=int(d)
-print("\tConversion of the variable 'd' as 'int':",d)
-print("\tType of the new variable 'd':",type(d),"\n")
 ris_ab=a+b;
 print("\tOperation a+b:",ris_ab,"with type",type(ris_ab))
 ris_ab=a-b;
@@ -35,3 +32,16 @@ ris_db=d/b
 print("\tOperation d/b:",ris_db,"with type",type(ris_db))
 mod_db=d%b
 print("\tOperation d%b:",mod_db,"with type",type(mod_db),"\n")
+mod_dpb=d**b
+print("\tOperation d**b:",mod_dpb,"with type",type(mod_dpb))
+mod_dpc=d**c
+print("\tOperation d**c:",mod_dpc,"with type",type(mod_dpc),"\n")
+ris_ab=(a==b)
+print("\tOperation '(a==b)':",ris_ab,"with type",type(ris_ab))
+ris_ab=(a!=b)
+print("\tOperation '(a!=b)':",ris_ab,"with type",type(ris_ab))
+ris_ab=(a<b)
+print("\tOperation '(a<b)':",ris_ab,"with type",type(ris_ab))
+ris_ab=(a<=b)
+print("\tOperation '(a<=b)':",ris_ab,"with type",type(ris_ab))
+
