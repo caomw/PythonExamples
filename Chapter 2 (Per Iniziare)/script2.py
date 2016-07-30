@@ -1,3 +1,12 @@
+##################################################################
+#
+# David Canino, July 2016
+#
+# Basic Examples of the Expressions in the Python Language
+#
+# script2.py script
+##################################################################
+
 # First expression (with values in 'floating point' precision)
 print("Computing the expression \'2+10.0*5\' (with the values in 'floating point' precision):",2+10.0*5)
 
