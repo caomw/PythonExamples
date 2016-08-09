@@ -2,7 +2,7 @@
 #
 # David Canino, August 2016
 #
-# Basic management of the lists in the Python Language
+# Basic management of the tuples in the Python Language
 #
 # scritp7.py script
 ###########################################################################################
