@@ -69,3 +69,26 @@ global greek_pi
 greek_pi=3.14
 global double_greek_pi
 double_greek_pi=6.28
+
+# ------------------------------------------------------------------------------------------------
+# Another function - it computes the double values for all values in a list (list comprehension).
+#
+# parameter l: the list, containing the values of interest
+#
+# Return value: the list containing the values of interest
+# ------------------------------------------------------------------------------------------------
+def double_values(l):
+        dl=[ n*2 for n in l ]
+        return dl
+
+# ------------------------------------------------------------------------------------------------
+# Another function - it computes the identity matrix of order n (two lists comprehensions)
+#
+# parameter n: the order for the identity matrix of interest
+#
+# Return value: the identity matrix of interest
+# ------------------------------------------------------------------------------------------------
+def identity_matrix(n):
+        mat=[ [ (1 if x==y else 0) for x in range(n) ] for y in range(n) ]
+        return mat
+
