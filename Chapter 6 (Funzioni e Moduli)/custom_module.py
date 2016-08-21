@@ -92,3 +92,13 @@ def identity_matrix(n):
         mat=[ [ (1 if x==y else 0) for x in range(n) ] for y in range(n) ]
         return mat
 
+# ------------------------------------------------------------------------------------------------
+# Another function - it reverses the associations in a dictionary (the dictionary comprehension)
+#
+# parameter d: the dictionary of interest
+# 
+# Return value: another dictionary with the reverse associations
+# ------------------------------------------------------------------------------------------------
+def reverse_dictionary(d):
+	dr={ v:k for k, v in d.items() }
+	return dr
