@@ -1,4 +1,6 @@
 # PythonExamples
+<center><A href="http://www.python.org"><IMG src="https://www.python.org/static/community_logos/python-logo.png" border="0"></A></center><p>
+
 This repository contains my first experiences with the <A href="http://www.python.org"><i>Python programming language</i></A>. I am a newbie about this language, thus these examples are very basic, and at the introductory level.
 
 The majority of the examples are largely inspired by these Kindle books:
